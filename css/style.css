@@ -172,16 +172,14 @@ main{
 .container-description{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     background-image: url("../assets/img/fondo-container-description.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     align-items: center;
 }
 .text-container-description{
-    padding: 25px;
+    padding: 0 25px;
 }
 
 .title-container-description p{
@@ -202,9 +200,55 @@ main{
 }
 .imagen-container-description img{
     width: 600px;
-}
+}   
 
 /* Fin estilos container Description */
+
+/* Inicio estilos container-item */
+
+/* Inicio estilos seccion-item */
+.seccion-items{
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/img/fondo-container-items.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+    padding: 80px
+}
+.container-items-box{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.container-items-image{
+    height: 180px;
+    max-height: 200px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.container-items-image img{
+    width: 150px;
+}
+.container-item-title p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-item-description {
+    font-size: 20px;
+    color: white;
+}
+
 /* ------ Diseño resposive */
 @media(max-width: 798px) {
     header {
@@ -256,6 +300,20 @@ main{
         width: 400px;
         border-image: 80px solid white;
     }
+
+    .container-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        gap: 5px;
+    }
+
+    .container-items-image{
+        height: auto;
+    }
+    .container-items-image img{
+        width: 180px;
+    }
     
 }
 
@@ -293,8 +351,6 @@ main{
         background-size: 60%;
         font-size: 30px;
     }
-
-    
 
     .hero-description p{
         padding: 0 5%;
