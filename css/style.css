@@ -235,7 +235,12 @@ main{
         font-size: 30px;
     }
 
-    .hero-description p{ 
+
+    .hero-description p{
+        padding: 0 0;
+        text-align: center;
         font-size: 18px;
+        font-family:'Source Sans Pro', sans-serif;
+        color: gray;
     }
 }
