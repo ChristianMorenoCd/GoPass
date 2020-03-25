@@ -167,6 +167,44 @@ main{
 }
 /* Fin estilo Hero */
 
+/* Inicio estilos container Description */
+
+.container-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-image: url("../assets/img/fondo-container-description.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    align-items: center;
+}
+.text-container-description{
+    padding: 25px;
+}
+
+.title-container-description p{
+    font-size: 45px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+}
+.text-description{
+    color: grey;
+    font-size: 24px;
+    text-align: justify;
+}
+.imagen-container-description{
+    display: grid;
+    justify-items: right;
+}
+.imagen-container-description img{
+    width: 600px;
+}
+
+/* Fin estilos container Description */
 /* ------ Diseño resposive */
 @media(max-width: 798px) {
     header {
@@ -196,6 +234,27 @@ main{
         font-size: 21px;
         font-family:'Source Sans Pro', sans-serif;
         color: gray;
+    }
+
+    .container-description{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 1fr;
+        gap: 0;
+    }
+
+    .text-container-description{
+        grid-row: 2;
+    }
+
+    .imagen-container-description{
+        display: grid;
+        justify-items: center;
+    }
+
+    .imagen-container-description img{
+        width: 400px;
+        border-image: 80px solid white;
     }
     
 }
@@ -235,6 +294,7 @@ main{
         font-size: 30px;
     }
 
+    
 
     .hero-description p{
         padding: 0 5%;
