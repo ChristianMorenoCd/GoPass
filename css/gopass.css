@@ -1,0 +1,91 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+/* Inicio estilos Generales */
+
+
+.Home-gopass{
+    height: 520px;
+    background-image: url("../assets/img/fondo-home-gopass.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-home-page-gopass{
+    height: 700px;
+    background-image: url("../assets/img/fondo-home-page-gopass.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    padding: 0 20%;
+    text-align: centers;
+}
+
+.title-home-page-gopass p{
+    color: black;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.description-home-page-gopass p{
+    text-align: justify;
+    padding: 2%;
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+    padding: 0;
+    text-indent: 0;
+    color: grey;
+}
+
+.other-text{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    margin-bottom: 200px;
+    margin-top: 3px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+@media(max-width: 798px){
+    .container-home-page-gopass{
+        height: 900px;
+        background-image: url("../assets/img/fondo-home-page-gopass.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+        padding: 0 5%;
+        text-align: center;
+    }
+    .other-text{
+     
+        margin-bottom: 250px;
+        
+    }
+}
+
+@media screen and (max-width:320px){
+    .container-home-page-gopass{
+        height: 900px;
+       
+    }
+    .other-text{
+        margin-bottom: 250px;
+        
+    }
+}
