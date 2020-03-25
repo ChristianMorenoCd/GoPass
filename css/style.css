@@ -191,7 +191,7 @@ main{
         height: 540px;
     }
     .hero-description p{
-        padding: 0 0;
+        padding: 0 5%;
         text-align: center;
         font-size: 21px;
         font-family:'Source Sans Pro', sans-serif;
@@ -237,7 +237,7 @@ main{
 
 
     .hero-description p{
-        padding: 0 0;
+        padding: 0 5%;
         text-align: center;
         font-size: 18px;
         font-family:'Source Sans Pro', sans-serif;
