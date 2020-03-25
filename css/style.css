@@ -208,8 +208,7 @@ main{
 
 /* Inicio estilos seccion-item */
 .seccion-items{
-    margin: 0;
-    padding: 0;
+    max-width: 100%;
     background-image: url("../assets/img/fondo-container-items.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -358,5 +357,23 @@ main{
         font-size: 18px;
         font-family:'Source Sans Pro', sans-serif;
         color: gray;
+    }   
+}
+
+/* Responsive Phone 320px */
+@media screen and (max-width:760px){
+    .container-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .container-items-image{
+        height: auto;
+    }
+    .container-items-image img{
+        width: 180px;
     }
 }
