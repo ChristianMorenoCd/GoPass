@@ -385,6 +385,7 @@ footer{
         border-image: 80px solid white;
     }
     
+    
     .container-items{
         display: grid;
         grid-template-columns: 1fr;
@@ -399,7 +400,7 @@ footer{
     .items-form input{
         width: 280px;
         height: 40px;
-        border-radius: 13px;
+        border-radius: 0px;
         padding: 10px;
         font-size: 18px;
         margin-bottom: 10px;
@@ -504,6 +505,15 @@ footer{
         grid-template-rows: 3fr;
         gap: 5px;
         justify-content: center;
+    }
+
+    .items-form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 0px;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 
     .container-items-image{

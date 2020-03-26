@@ -1,9 +1,9 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
-/* Inicio estilos Generales */
 
 
+/* Inicio estilos home */
 .Home-gopass{
     height: 520px;
     background-image: url("../assets/img/fondo-home-gopass.png");
@@ -11,7 +11,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Fin estilos home */
 
+/* Inicio estilos home-page-Gopass */
 .container-home-page-gopass{
     height: 700px;
     background-image: url("../assets/img/fondo-home-page-gopass.png");
@@ -56,8 +58,54 @@
     font-size: 26px;
     font-weight: bold;
 }
+/* Fin estilos home-page-Gopass */
+
+/* Inicio estilos Info-home-page-Gopass */
+.image-container-info-gopass-phone{
+    display: none;
+}
+
+.container-info-gopass{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.text-container-info-gopass {
+    text-align: end;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.title-info-gopass{
+    text-align: end;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.description-info-gopass{
+    text-align: end;
+    font-size: 28px;
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-container-info-gopass a img{
+    text-align: center;
+    width: 350px;
+    
+}
+
+.image-container-info-gopass img{
+    width: 650px;
+}
+/* Fin estilos Info-home-page-Gopass */
 
 
+/* Responsive Desktop 320px */
 @media(max-width: 798px){
     .container-home-page-gopass{
         height: 900px;
@@ -73,12 +121,53 @@
         text-align: center;
     }
     .other-text{
-     
-        margin-bottom: 250px;
-        
+        margin-bottom: 250px;  
     }
+
+    .container-info-gopass{
+        display: grid;
+        grid-template-rows: 160px 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin: auto;
+        gap: 0;
+    }
+
+    .image-container-info-gopass-phone{
+        display: grid;
+    }
+
+    .image-container-info-gopass-phone img{
+        width: 100%;
+    }
+    .image-container-info-gopass {
+        display: none;
+    }
+
+    .text-container-info-gopass {
+        text-align: end;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .title-info-gopass{
+        text-align: center;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+    }
+
+    .description-info-gopass{
+        text-align: justify;
+        font-size: 28px;
+        color: gray;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
 }
 
+/* Responsive Phone 320px */
 @media screen and (max-width:320px){
     .container-home-page-gopass{
         height: 900px;
