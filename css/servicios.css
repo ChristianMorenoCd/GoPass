@@ -1,0 +1,150 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+
+
+/* Inicio estilos home */
+.home-servicios{
+    height: 520px;
+    background-image: url("../assets/img/fondo-page-servicios.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-service-text{
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+}
+/* Fin estilos home */
+
+/* Inicio estilos seccion-services */
+
+.section-services{
+    background-image: url("../assets/img/fondo-seccion-services.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-section-services{
+    display: grid;
+    font-family:'Source Sans Pro', sans-serif;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 380px 180px;
+    justify-items: center;
+
+}
+.description-section-services{
+    margin: 0;
+    padding: 15px;
+    
+}
+.description-section-services p{
+    text-align: justify;
+    font-size: 26px;
+    margin: 35px 15%;
+    color: gray;
+    padding: 0;
+    text-indent: 0;
+}
+
+.description-section-services p b{
+    color: black;
+}
+
+.image-section-servicies{
+    margin: 0;
+    padding: 0;
+}
+
+.image-section-servicies img{
+    width: 580px;
+    margin: 0;
+}
+.List-section-services{
+    justify-self: start;
+    margin-left: 25px;
+}
+
+.title-List-section{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 38px;
+    font-weight: bold;
+    font-family:'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0 15px;
+    text-indent: 0;
+}
+.direction-list-section{
+    font-size: 26px;
+    font-family:'Source Sans Pro', sans-serif;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+.direction-list-section span{
+    color: #9be644;
+    font-size: 38px;
+}
+.name-list-section{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+/* Fin estilos seccion-services */
+
+
+
+/* Responsive Desktop 320px */
+@media(max-width: 798px){
+
+    .container-section-services{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 280px 320px;
+        justify-items: center;
+    
+    }
+
+    .description-section-services p{
+        text-align: center;
+        font-size: 22px;
+        margin: 0 0px;
+        padding-top: 35px;
+    }
+
+    .image-section-servicies img{
+        width: 380px;
+        margin: 0;
+    }
+}
+
+/* Responsive Phone 320px */
+@media screen and (max-width:320px){
+    .container-section-services{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 280px 320px;
+        justify-items: center;
+    
+    }
+
+    .description-section-services p{
+        text-align: center;
+        font-size: 22px;
+        margin: 0 0px;
+        padding-top: 35px;
+    }
+
+    .image-section-servicies img{
+        width: 350px;
+        margin: 0;
+    }
+}
