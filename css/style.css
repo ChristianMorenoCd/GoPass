@@ -260,20 +260,23 @@ footer{
 }
 
 .container-form{
-    background-color: gray;
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    border-radius: 10px;
+    
 }
 .image-container-form img{
     width: 300px;
 }
 .items-form{
-    display: grid;   
+    background-color: gray;
+    border-radius: 10%;
+    display: grid; 
+    padding: 5%;  
 }
 
 .items-form p{
@@ -314,22 +317,61 @@ footer{
     background-color: black;
     color: white;
 }
-.contact-form{
+
+.container-contact-info{
+
     display: grid;
     align-content: center;
+   
 }
-.data-contact-form{
+
+.container-contact-data{
+    display: grid;
+    grid-template-columns: 80px 320px;
+    align-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;    
+    padding: 0;
     margin-bottom: 15px;
-    margin-left: 55px;
 }
-.data-contact-form p{
+
+.container-contact-data-icon{
+    margin-left: 10px;
+    height: 85px;
+    width: 85px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background-color: #7ee20b;
+    border-radius: 50%;
+
+}
+.container-contact-data-info {
+    background-color: #7ee20b;
+    border-radius: 0 30px 30px 0;
+    margin: 10px 0; 
+    width: 280px;
+}
+.especial{
+    background-color: #7ee20b;
+    border-radius: 0 30px 30px 0;
+    height: 50px;
+    margin: 10px 0;  
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.container-contact-data-info p{
     margin: 0;
-    color: #9be644;
-    font-size: 28px;  
+    text-indent: 0;
+    font-size: 22px;
     font-weight: bold;
+    font-family:'Source Sans Pro', sans-serif;
+    margin-left: 20px;
 }
+
 /* Fin estilos footer */
 
 

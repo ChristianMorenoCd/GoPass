@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gopass.css">
     <link rel="stylesheet" href="assets/fonts/flaticon.css">
-    <title>GoPass</title>
+
+     <!-- Scroll -->
+     <script src="js/smooth-scroll.min.js"></script>
+     <script>
+         smoothScroll.init({
+             selector: '[data-scroll]',
+             selectorHeader: null,
+             speed: 2000,
+             easing: 'easeInOutCubic',
+             offset: 0,
+             callback: function (anchor, toggle) {}
+         });
+     </script>
+
+     <!-- Iconos  -->
+     <link rel="stylesheet" href="js/font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+     <title>GoPass</title>
 </head>
 
 <body>
@@ -21,10 +38,10 @@
             <a href=""><span class="flaticon-011-instagram"></span></a>
             <a href=""><span class="flaticon-008-youtube"></span></a>
         </div>
-        <div class="container-link-nav">
+         <div class="container-link-nav">
             <a class="linl-nav" href="GoPass.html">¿Que es GoPass?</a>
             <a class="linl-nav" href="servicios.html">Nuestros servicios</a>
-            <a class="linl-nav" href=".footer">Contáctanos</a>
+            <a data-scroll class="linl-nav" href="#footerScroll">Contáctanos</a>
             <a class="image-lin-nav" href="">
                 <img src="assets/img/tag-header.png" alt="Link-Img Adquiere tu Tag">
             </a>
@@ -79,7 +96,7 @@
 
     <footer>
         <div class="container-form">
-            <div class="image-container-form">
+            <div class="image-container-form" id="footerScroll">
                 <figure>
                     <img src="assets/img/image-footer.png" alt="Imagen Enlaces AppStore-GoogleStore">
                 </figure>
@@ -93,21 +110,38 @@
                 <a href="">Enviar</a>
             </div>
         </div>
-        <div class="contact-form">
-            <div class="data-contact-form">
-                <p>Lineas de atencion</p>
-                <p>(+571) 432 2230</p>
+        <div class="container-contact-info">
+            <div class="container-contact-data">
+                <div class="container-contact-data-icon">
+                    <p><span class="fas fa-phone-square fa-3x"></span></p>
+                </div>
+                <div class="container-contact-data-info">
+                    <p>Lineas de atencion</p>
+                    <p>(+571) 432 2230</p>
+                </div>
             </div>
-            <div class="data-contact-form">
-                <p>Carrera 56# 9-09, Of 504</p>
-                <p>Bogota, Colombia</p>
+            <div class="container-contact-data">
+                <div class="container-contact-data-icon">
+                    <p><span class="fas fa-location-arrow fa-3x"></span></p>
+                </div>
+                <div class="container-contact-data-info">
+                    <p>Carrera 56# 9-09, Of 504</p>
+                    <p>Bogota, Colombia</p>
+                </div>
             </div>
-            <div class="data-contact-form">
-                <p>Info@GoPass.com.co</p>
-
+            <div class="container-contact-data">
+                <div class="container-contact-data-icon">
+                    <p><span class="far fa-envelope fa-3x"></span></p>
+                </div>
+                <div class="container-contact-data-info especial">
+                    <p>Info@GoPass.com.co</p>
+                </div>
             </div>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 </body>
 
 </html>
