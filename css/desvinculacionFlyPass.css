@@ -53,3 +53,9 @@ header {
 .button-desvicular-flypass:hover{
     background-color: #7ff006;
 }
+.imagen-container-gopass{
+    margin-bottom: 50px;
+}
+.imagen-container-gopass a img{
+    width: 310px;
+}
