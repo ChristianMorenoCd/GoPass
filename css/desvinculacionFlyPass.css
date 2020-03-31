@@ -1,0 +1,55 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imagen-container img {
+    width: 550px;
+    margin-bottom: 35px;
+}
+.container-form-desvinculacion-flypass form {
+    color: #9be644;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.container-form-desvinculacion-flypass form input {
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container-form-desvinculacion-flypass form p{
+    font-size: 28px;
+    font-weight: bold;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.button-desvicular-flypass{
+    cursor: pointer;
+    background-color: #9be644;  
+}
+.button-desvicular-flypass:hover{
+    background-color: #7ff006;
+}

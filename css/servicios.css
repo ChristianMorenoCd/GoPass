@@ -100,6 +100,17 @@
 }
 /* Fin estilos seccion-services */
 
+/* Inicio estilo boton desvincular flyPass */
+.container-desvincular-flypass{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-desvincular-flypass a img{
+    width: 300px;
+}
 
 
 /* Responsive Desktop 320px */
