@@ -59,3 +59,10 @@ header {
 .imagen-container-gopass a img{
     width: 310px;
 }
+
+@media (max-width: 718px){
+    .imagen-container img {
+        width: 350px;
+        margin-bottom: 35px;
+    }
+}
