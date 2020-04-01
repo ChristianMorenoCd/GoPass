@@ -26,7 +26,7 @@
                 <br>
                 <input type="password" name="pass"  placeholder="Contraseña" required>
                 <p>
-                    Placa del vehiculo que deseas desvincular
+                    Placa del vehículo que deseas desvincular
                 </p>
                 <input type="text" name="placa"  placeholder="Placa" required>
                 <br>
